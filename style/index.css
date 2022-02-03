@@ -15,8 +15,15 @@ body {
 h1{
   letter-spacing: .5em;
   font-weight: 100;
-  color: #F4F6F8;
+  /* color: #F4F6F8; */
   margin-bottom: 30px;
+
+  /* GRADIENT ANIMATION */
+  color: transparent;
+  background: radial-gradient(circle, #ff6e9e 0%,  #ec7fff 20%, #81f0ff 40%, #83ff87 60%, #b188ff 100%);
+  -webkit-background-clip: text;
+  background-size: 400%;
+  animation: gradient 4s linear infinite alternate;
 }
 button{
   display: block;
